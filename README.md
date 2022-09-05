@@ -1,12 +1,15 @@
 # BRANDIT | AI Generated Marketting Assistant 
 
-This is a SaaS application that generates AI branding snippets and keywords for the customer's brand. 
-It is a full stack application, and created as a tutorial for how to create AI driven full-stack
-SaaS apps.
+BRANDIT is an AI Driven SaaS application utilizing OpenAI's GPT-3 API. BRANDIT assists companies and individuals to find upbeat and trending snippets and keywords to use on social media posts to maximize watchtime and interaction.
 
 ## Infrustructure 
 
+<p>System Architecture:</p>
+<img src='Images/plan.png'/>
 
+<br/>
+<p>Restful API Architecture:</p>
+<img src='Images/api.png'/>
 
 
 ## Tech Stack
