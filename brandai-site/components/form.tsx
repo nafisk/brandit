@@ -20,22 +20,44 @@ const Form: React.FC<FormProps> = ({
     }
   }
 
+  let statusColor = 'text-slate-500'
+  let statusText = null
+  if (!isPromptValid) {
+    statusColor = 'text-red-400'
+    statusText = `Input must be less than ${characterLimit} characters.`
+  }
+
   return (
-    <div>
-      <p>Generate your branding keywords for your company</p>
+    <>
+      <div className='mb-6 text-slate-400'>
+        <p>
+          Tell me what your brand is about and I will generate copy and keywords
+          for you.
+        </p>
+      </div>
+
       <input
+        className='p-2 w-full rounded-md focus:outline-teal-400 focus:outline text-slate-700'
         type='text'
         placeholder='coffee'
-        onChange={e => setPrompt(e.currentTarget.value)}
         value={prompt}
+        onChange={e => updatePromptValue(e.currentTarget.value)}
       ></input>
-      <div>
-        {prompt.length}/{characterLimit}
+      <div className={statusColor + ' flex justify-between my-2 mb-4 text-sm'}>
+        <div>{statusText}</div>
+        <div>
+          {prompt.length}/{characterLimit}
+        </div>
       </div>
-      <button onClick={onSubmit} disabled={isLoading || !isPromptValid}>
+      <button
+        className='bg-gradient-to-r from-teal-400 
+      to-blue-500 disabled:opacity-50 w-full p-2 rounded-md text-lg'
+        onClick={onSubmit}
+        disabled={isLoading || !isPromptValid}
+      >
         Submit
       </button>
-    </div>
+    </>
   )
 }
 

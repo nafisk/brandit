@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Form from './form'
 import Result from './result'
+import brandaiLogo from '../public/brandaiLogo.svg'
+import Image from 'next/image'
 
 const BrandAI: React.FC = () => {
   const CHARACTER_LIMIT = 32
@@ -55,11 +57,25 @@ const BrandAI: React.FC = () => {
     )
   }
 
+  const gradientTextStyle =
+    'text-white text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 font-light w-fit mx-auto'
+
   return (
-    <>
-      <h1>Branditt!</h1>
-      {displayedElement}
-    </>
+    <div className='h-screen flex'>
+      <div className='max-w-md m-auto p-2'>
+        <div className='bg-slate-800 p-6 rounded-md text-white'>
+          <div className='text-center my-6'>
+            <Image src={brandaiLogo} width={42} height={42} alt='/' />
+            <h1 className={gradientTextStyle + ' text-3xl font-bold'}>
+              BRANDIT
+            </h1>
+            <div className={gradientTextStyle}>Your AI branding assistant</div>
+          </div>
+
+          {displayedElement}
+        </div>
+      </div>
+    </div>
   )
 }
 

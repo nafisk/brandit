@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>BrandAI | AI Generated Marketing</title>
+        <title>BRANDIT | AI Generated Marketing</title>
         <meta
           name='description'
           content='Generated branding snippets for your product'
