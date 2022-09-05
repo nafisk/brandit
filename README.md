@@ -7,11 +7,11 @@
 ## Infrustructure 
 
 <p>System Architecture:</p>
-<img src='Images/plan.png'/>
+<img src='Images/plan.png' width='100%'/>
 
 <br/>
 <p>Restful API Architecture:</p>
-<img src='Images/api.png'/>
+<img src='Images/api.png' width='100%'/>
 
 
 ## Tech Stack
