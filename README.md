@@ -1,6 +1,8 @@
-# BRANDIT | AI Generated Marketting Assistant 
+# [BRANDIT](https://brand-ai.vercel.app/) | AI Generated Marketting Assistant 
 
-BRANDIT is an AI Driven SaaS application utilizing OpenAI's GPT-3 API. BRANDIT assists companies and individuals to find upbeat and trending snippets and keywords to use on social media posts to maximize watchtime and interaction.
+### [BRANDIT](https://brand-ai.vercel.app/) is an ***AI*** Driven ***SaaS*** application utilizing ***OpenAI's GPT-3 API***. [BRANDIT](https://brand-ai.vercel.app/) assists companies and individuals to ***find upbeat and trending snippets and keywords*** to use on social media posts to maximize watchtime and interaction.
+
+<img src='Images/walkthrough.gif'/>
 
 ## Infrustructure 
 
