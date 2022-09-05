@@ -31,8 +31,8 @@ const Form: React.FC<FormProps> = ({
     <>
       <div className='mb-6 text-slate-400'>
         <p>
-          Tell me what your brand is about and I will generate copy and keywords
-          for you.
+          Tell me what your brand is about and I will generate a snippet and
+          keywords for you to use.
         </p>
       </div>
 
