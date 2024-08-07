@@ -30,15 +30,7 @@ Key benefits of using BRANDIT:
 * **Trend Identification**: Stay updated with trending keywords and snippets for higher engagement.
 * **Enhanced Interaction**: Increase watchtime and interaction on your social media posts.
 
-<div align='center'>
-  
-<img src='Images/walkthrough.gif' alt='Walkthrough GIF' height='500'/>
-
-</div>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+</br>
 
 ### Built With
 
@@ -60,6 +52,16 @@ Key benefits of using BRANDIT:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+## Demo
+
+<div align='center'>
+  
+<img src='Images/walkthrough.gif' alt='Walkthrough GIF' height='500'/>
+
+</div>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Infrastructure
